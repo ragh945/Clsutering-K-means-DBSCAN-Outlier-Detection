@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from PIL import Image
 
+st.title("Interactive Clustering Visualization using K-Means and DBSCAN")
 clust=Image.open("clustering.jpeg")
 st.image(clust,use_column_width=True)
 
