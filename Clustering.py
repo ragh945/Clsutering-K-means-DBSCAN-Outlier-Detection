@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from PIL import Image
 
-clust=Image.open(r"C:\Users\RAGHAVENDRA KUMAR\Downloads\clustering.jpeg")
+clust=Image.open("clustering.jpeg")
 st.image(clust,use_column_width=True)
 
 # Generate synthetic datasets
